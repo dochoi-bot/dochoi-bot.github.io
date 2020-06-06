@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "soso_game_web",
+"productVersion": "0.1",
+"dataUrl": "Sosogame.data.unityweb",
+"wasmCodeUrl": "Sosogame.wasm.code.unityweb",
+"wasmFrameworkUrl": "Sosogame.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.10f1"
+}
