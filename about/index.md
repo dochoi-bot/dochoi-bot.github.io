@@ -1,37 +1,18 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: Dochoi의 소소한 코딩 모음
+tags: [about, Jekyll, theme, moon, dochoi]
+date: 2020-06-08
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+<img src="image/image-20200608034903552.png" alt="image-20200608034903552" style="zoom: 15%;" />
 
-## Preview
+**안녕하세요**
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+로봇공학을 전공하고
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+코딩을 좋아하는 **Dochoi**입니다.
 
-## Getting Started
+이곳은 개발을 하면서 느낀점과 배운점들을 기록하기 위한 공간입니다. 
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}

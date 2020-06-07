@@ -1,14 +1,15 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Dochoi의 소소한 코딩 모음
+bio:                '코딩을 하면서 느낀점들을 모은 공간입니다.'
+description:        "코딩을 하면서 느낀점들을 모은 공간입니다."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+logo:               'assets/img/logo_dochoi.png'
+background:         'assets/img/background_dochoi.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:				http://127.0.0.1:4000
+#url:                https://ChoiDongKyu96.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +27,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   dochoi
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,20 +38,20 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:				ehdrb345@naver.com
+#twitter:            username
+#facebook:           username
+github-url:         ChoiDongKyu96
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
