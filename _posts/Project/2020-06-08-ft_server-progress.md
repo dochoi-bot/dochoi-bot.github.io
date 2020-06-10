@@ -40,17 +40,17 @@ comments: true
 
 https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
-![](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg1.png)
+![](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg1.png)
 
 stable 버전을 다운로드 받는다.
 
 
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg2.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg2.png)
 
 실패하였다. 
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg3.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg3.png)
 
 내 윈도우 버전을 확인해 본다. **내 윈도우 버전과 맞지 않는다.**
 
@@ -70,11 +70,11 @@ docker는 리눅스 기반의 프로그램이다. 윈도우에서 실행하기 �
 
 **도커를 실행하려면 가상화를 해야하기 때문에 작업 관리자를 켜서 성능탭의 가상화가 "사용"으로 되어있는지 확인한다.**
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg4.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg4.png)
 
 가상화를 사용으로 바꿔준다.
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg5.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg5.png)
 
 docker version으로 제대로 설치되었는지 확인한다.
 
@@ -94,7 +94,7 @@ FROM debain:buster
 
 이다. dockerfile의 첫 줄이 완성되었다.
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg8.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg8.png)
 
 이미지가 pull이 되었는지 확인한다.
 
@@ -102,7 +102,7 @@ FROM debain:buster
 
 이미지를 빌드하자
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg9.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg9.png)
 
 ```
 docker image build -t dochoi/debian:buster .
@@ -131,7 +131,7 @@ docker container run -it -p 9000:8080 dochoi/debian:buster
 
 ## Nginx설치
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg10.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg10.png)
 
 ```
 $ apt update
@@ -256,7 +256,7 @@ localhost가 192.168.99.100
 
 192.168.99.100:9000으로 들어가 본다
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg11.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg11.png)
 
 성공하였다.
 
@@ -445,7 +445,7 @@ flush privileges;
 quit;
 ```
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg12.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg12.png)
 
 들어가졌다.
 
@@ -459,7 +459,7 @@ https://ko.wordpress.org/wordpress-4.9.7-ko_KR.zip
 
 phpmyadmin 과 유사하게 해준다.
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg13.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg13.png)
 
 완료하였다. 이로써 wordpress까지 끝이 났다
 
@@ -567,7 +567,7 @@ https://velog.io/@minholee_93/Nginx-HTTPS-SSL
 
 defalut 파일에 location{} 속에 auto index on을 추가한다.
 
-![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Docker/images/dockerimg15.png)
+![dockerimg2](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/images/dockerimg15.png)
 
 이곳에 적힌 파일이 location에없어야 auto index가 적용되니 수정해준다.
 
