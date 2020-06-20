@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Algorithm-Test
+title: algorithm-test
 excerpt: "A List of Algorithm-Test Posts"
 comments: false
 ---

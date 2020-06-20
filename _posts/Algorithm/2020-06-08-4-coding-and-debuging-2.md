@@ -2,7 +2,7 @@
 layout: post
 title: "4. 코딩과 디버깅에 관하여-2"
 date: 2020-06-08
-category : Algorithm
+category : algorithm
 tags: [Algorithm]
 excerpt: 코딩과 디버깅에 관하여-2
 comments: true

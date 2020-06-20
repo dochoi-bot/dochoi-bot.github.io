@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Algorithm
+title: algorithm
 excerpt: "A List of Algorithm Posts"
 comments: false
 ---

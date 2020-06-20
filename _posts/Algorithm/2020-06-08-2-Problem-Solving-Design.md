@@ -3,7 +3,7 @@ layout: post
 title: "2. 문제 해결 설계"
 excerpt: "문제 해결 설계"
 date: 2020-06-08
-category : Algorithm
+category : algorithm
 tags: [Algorithm]
 comments: true
 ---

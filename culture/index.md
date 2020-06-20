@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Culture
+title: culture
 excerpt: "A List of Culture Posts"
 comments: false
 ---

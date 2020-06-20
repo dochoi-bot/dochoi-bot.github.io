@@ -2,7 +2,7 @@
 layout: post
 title: "1. 알고리즘은 왜 공부해야 할까"
 date: 2020-06-08
-category : Algorithm
+category : algorithm
 excerpt: "알고리즘은 왜 공부해야 할까"
 tags: [Algorithm]
 comments: true

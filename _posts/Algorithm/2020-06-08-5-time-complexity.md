@@ -2,7 +2,7 @@
 layout: post
 title: "5. 알고리즘의 시간 복잡도 분석"
 date: 2020-06-08
-category : Algorithm
+category : algorithm
 tags: [Algorithm]
 excerpt: 알고리즘의 시간 복잡도 분석
 comments: true
