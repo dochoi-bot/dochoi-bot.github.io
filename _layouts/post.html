@@ -8,6 +8,9 @@ layout: compress
 <!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
 <head>
     {% include head.html %}
+    <style>
+    p{text-transform:uppercase;}
+</style>
 </head>
 <body>
     {% include nav.html %}
@@ -27,7 +30,7 @@ layout: compress
                     {% if page.project %}
                     <a class="btn zoombtn" href="{{site.url}}/projects/">
                     {% else %}
-                    <a class="btn zoombtn" href="{{site.url}}/{{page.category}}/">{{page.category}}
+                        <a class="btn zoombtn" href="{{site.url}}/{{page.category}}/"> {{page.category}}
                     {% endif %}
                         <i class="fa fa-chevron-left"></i>
                     </a>
