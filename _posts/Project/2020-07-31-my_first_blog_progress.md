@@ -9,6 +9,8 @@ tags: [Django]
 comments: true
 ---
 
+{% raw %}
+
 
 
 
@@ -1607,3 +1609,4 @@ def post_delete(request, pk):
 
 이로써 게시판을 만들고, 글 생성 삭제 등 djang의 기초를 공부해보았다.
 
+{% endraw %}
