@@ -52,9 +52,9 @@ python mange.py runserver
 
 를 입력하여 정상작동되는지 확인한다.
 
-![image-20200606220838086](image/image-20200606220838086.png)
+![image-20200606220838086](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606220838086.png)
 
-![image-20200606220850432](image/image-20200606220850432.png)
+![image-20200606220850432](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606220850432.png)
 
 ## 앱
 
@@ -76,7 +76,7 @@ python manage.py startapp 앱이름
 
 에 추가하여 액티브 상태로 만들어주자
 
-![image-20200606222438360](image/image-20200606222438360.png)
+![image-20200606222438360](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606222438360.png)
 
 앱을 만들었다.
 
@@ -178,13 +178,13 @@ python manage.py migrate
 
 입력
 
-![image-20200606230421499](image/image-20200606230421499.png)
+![image-20200606230421499](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606230421499.png)
 
 이제 runserver을 해도 빨간글씨가 나오지않는다.
 
 SQLite Brower을 써서 데이터베이스를 GUI에서 다루자
 
-![image-20200606230916532](image/image-20200606230916532.png)
+![image-20200606230916532](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606230916532.png)
 
 Migration 만들기
 
@@ -204,11 +204,11 @@ blog 폴더에 migrations 폴더가 생겼고 그안에 initial.py파일이 생�
 ./manage.py migrate blog
 ```
 
-![image-20200606231314761](image/image-20200606231314761.png)
+![image-20200606231314761](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606231314761.png)
 
 sqlite로 획인해보자
 
-![image-20200606231417306](image/image-20200606231417306.png)
+![image-20200606231417306](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606231417306.png)
 
 필드로 들어갔다.
 
@@ -222,7 +222,7 @@ sqlite로 획인해보자
 
 이 명령어로 migration이 migrate될 때 실제로 실행되는 sql 명령어를 확인할 수 있다.
 
-![image-20200606231755198](image/image-20200606231755198.png)
+![image-20200606231755198](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606231755198.png)
 
 우리가 만든 모델이 가지는 구조의 테이블을 데이터베이스에 기록하는 sql 명령어들을 확인할 수 있다. 이렇게 데이터베이스의 자료구조, 자료간 관계를 정의해놓은것을 데이터베이스 스키마라고 한다.
 
@@ -246,7 +246,7 @@ from blog.models import Post# models.py에서 Post 모델을 가져온다.
 admin.site.register(Post) # Post를 관리자 페이지에 등록한다
 ```
 
-![image-20200606233104252](image/image-20200606233104252.png)
+![image-20200606233104252](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606233104252.png)
 
 이제 들어갈 수 있다.
 
@@ -258,7 +258,7 @@ admin.site.register(Post) # Post를 관리자 페이지에 등록한다
 
 입력
 
-![image-20200606233919261](image/image-20200606233919261.png)
+![image-20200606233919261](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606233919261.png)
 
 이제 로그인이 가능하다.
 
@@ -299,7 +299,7 @@ Post class에 이를 추가하자
 
 지금 우리 블로그를 들어가면 무엇이 나오는가?
 
-![image-20200606234951318](image/image-20200606234951318.png)
+![image-20200606234951318](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200606234951318.png)
 
 이게 블로그인가?
 
@@ -377,7 +377,7 @@ urlpatterns = [
 
 ```
 
-![image-20200607000421536](image/image-20200607000421536.png)
+![image-20200607000421536](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607000421536.png)
 
 성공이다. !!
 
@@ -483,7 +483,7 @@ render 함수는 두개의 인자를 필수로 받는다.
 
 옵션으로 세번째 인자에 데이터들이 들어있는 딕셔너리 자료형을 받는다.
 
-![image-20200607002118744](image/image-20200607002118744.png)
+![image-20200607002118744](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607002118744.png)
 
 hello world가 커졌다
 
@@ -531,7 +531,7 @@ mange.py로 가서
 
 를 입력하자
 
-![image-20200607003219611](image/image-20200607003219611.png)
+![image-20200607003219611](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607003219611.png)
 
 이렇게 된다. 여기서 테스트 코드를 작성하면 된다.
 
@@ -541,7 +541,7 @@ ex)
 Post.objects.all()
 ```
 
-![image-20200607003337943](image/image-20200607003337943.png)
+![image-20200607003337943](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607003337943.png)
 
 이런식으로 확인할 수 있다.
 
@@ -551,7 +551,7 @@ User.objects.all()
 
 
 
-![image-20200607003459227](image/image-20200607003459227.png)
+![image-20200607003459227](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607003459227.png)
 
 쿼리도 확인할 수 있다.(sql문이 궁금하다면)
 
@@ -577,11 +577,11 @@ me = User.objects.get(username='dochoi')
 Post.objects.create(author=me, title='ORM Test', content='This is a test Post')
 ```
 
-이제 된다.	![image-20200607003813280](image/image-20200607003813280.png)
+이제 된다.	![image-20200607003813280](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607003813280.png)
 
 목록의 마지막에 ORM Test가 추가되었다.
 
-![image-20200607003900812](image/image-20200607003900812.png)
+![image-20200607003900812](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607003900812.png)
 
 sqlite에서도 확인해볼 수 있다.
 
@@ -615,7 +615,7 @@ Post.objects.order_by('-created_date')
 
 
 
-![image-20200607004252598](image/image-20200607004252598.png)
+![image-20200607004252598](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607004252598.png)
 
 ### 쿼리셋 필터 중복 적용
 
@@ -633,7 +633,7 @@ post = Post.objects.get(title='ORM Test')
 post.delete()
 ```
 
-객체를 삭제하면서 (삭제한 총 객채수, {삭제된 객체의 타입: 삭제된 해당 타입의 객체 수})를 리턴한다.![image-20200607004524881](image/image-20200607004524881.png)
+객체를 삭제하면서 (삭제한 총 객채수, {삭제된 객체의 타입: 삭제된 해당 타입의 객체 수})를 리턴한다.![image-20200607004524881](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607004524881.png)
 
 https://docs.djangoproject.com/en/1.11/ref/models/querysets/
 
@@ -732,7 +732,7 @@ post_list.html을 수정하자
 
 
 
-![image-20200607011132178](image/image-20200607011132178.png)
+![image-20200607011132178](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607011132178.png)
 
 쿼리셋을 받아왔다.
 
@@ -763,7 +763,7 @@ post_list.html에 body를 수정하자
 </body>
 ```
 
-![image-20200607011450641](image/image-20200607011450641.png)
+![image-20200607011450641](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607011450641.png)
 
 오호 뭔가 게시판 느낌이 난다.
 
@@ -774,7 +774,7 @@ for문으로 쿼리셋의 객체를 하나씩 순회하면서 Post 객체의 tit
             <div class="content">{{ post.content }}</div>	
 ```
 
-![image-20200607011911634](image/image-20200607011911634.png)
+![image-20200607011911634](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607011911634.png)
 
 ### 필터를 적용하자
 
@@ -895,7 +895,7 @@ bootstrap/css/폴더 안에 bootstrap.css 파일을 가르킨다.
 {% load static %}
 ```
 
-![image-20200607020329448](image/image-20200607020329448.png)
+![image-20200607020329448](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607020329448.png)
 
 조금더 깔끔해졌다.
 
@@ -903,7 +903,7 @@ bootstrap/css/폴더 안에 bootstrap.css 파일을 가르킨다.
 
 
 
-![image-20200607020853214](image/image-20200607020853214.png)
+![image-20200607020853214](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607020853214.png)
 
 **css가 업데이트가 안될땐, 캐시를 삭제해주자 !!**
 
@@ -986,7 +986,7 @@ urlpatterns = [
 
 들어가보자 !!
 
-![image-20200607022151283](image/image-20200607022151283.png)
+![image-20200607022151283](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607022151283.png)
 
 흠 .. 개행문자가 사라졌다?
 
@@ -996,7 +996,7 @@ urlpatterns = [
 
 으로 바꿔준다.
 
-![image-20200607022238883](image/image-20200607022238883.png)
+![image-20200607022238883](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607022238883.png)
 
 완성되었다 !! linebreaksbr을 이용하면 줄바꿈이 일어나는 곳에 `<br>`태그를 자동으로 해준다
 
@@ -1039,7 +1039,7 @@ def post_detail(request, pk):
 
 기본키를 이용하자 기본키는 자동으로 생성이되어있다.
 
-sqlite browser을 보자![image-20200607023755401](image/image-20200607023755401.png)
+sqlite browser을 보자![image-20200607023755401](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607023755401.png)
 
 id값이 바로 기본키이다.
 
@@ -1066,9 +1066,9 @@ def post_detail(request, pk):
 
 이로써 게시판을 만들었다.
 
-![image-20200607024922385](image/image-20200607024922385.png)
+![image-20200607024922385](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607024922385.png)
 
-![image-20200607025032647](image/image-20200607025032647.png)
+![image-20200607025032647](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607025032647.png)
 
 ### 템플릿 상속
 
@@ -1301,7 +1301,7 @@ for post in posts:
 
 을 입력해준다 shell_plus에
 
-![image-20200607145619570](image/image-20200607145619570.png)
+![image-20200607145619570](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607145619570.png)
 
 시간이 없던글이 시간이 만들어져서 생성되었다.
 
@@ -1324,7 +1324,7 @@ post = Post.objects.get(id=5)
 post.hide()
 ```
 
-![image-20200607145900606](image/image-20200607145900606.png)
+![image-20200607145900606](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607145900606.png)
 
 5번글이 숨겨졌다.(데이터는 존재한다.)
 
@@ -1375,7 +1375,7 @@ urlpatterns = [
 
 ```
 
-![image-20200607152532464](image/image-20200607152532464.png)
+![image-20200607152532464](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607152532464.png)
 
 CSRF 검증에 실패한다
 
@@ -1446,7 +1446,7 @@ def post_add(request):
 
 수정해준다.
 
-![image-20200607155830600](image/image-20200607155830600.png)
+![image-20200607155830600](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607155830600.png)
 
 추가되는것을 볼 수 있다.
 
@@ -1462,7 +1462,7 @@ post_pk = post.pk
 
 뷰 오브작체를 넘겨주면 역참조 url 문제가 발생할 수 있다.
 
-![image-20200607160341063](image/image-20200607160341063.png)
+![image-20200607160341063](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607160341063.png)
 
 글을 작성하면 바로 글의 페이지로 넘어간다 !!
 
@@ -1481,7 +1481,7 @@ html base 파일 수정
 </div>
 ```
 
-![image-20200607160608281](image/image-20200607160608281.png)
+![image-20200607160608281](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607160608281.png)
 
 버튼이 생겼다 !!
 
@@ -1597,9 +1597,9 @@ def post_delete(request, pk):
 </form>
 ```
 
-![image-20200607162316291](image/image-20200607162316291.png)
+![image-20200607162316291](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607162316291.png)
 
-![image-20200607162328040](image/image-20200607162328040.png)
+![image-20200607162328040](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Project/image/image-20200607162328040.png)
 
 글이 삭제되었다.
 

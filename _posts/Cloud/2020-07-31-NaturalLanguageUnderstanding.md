@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IBM Cloud로 자연어 분석하기"
-date: 2020-07-31
+date: 2020-0
 category : cloud
 excerpt: "IBM Cloud로 자연어 분석하기"
 tags: [Cloud]
@@ -20,21 +20,21 @@ comments: true
 
 IBM클라우드로 웹페이지의 자연어를 분석해보자.
 
-<img src="images/pic38.png" alt="pic38" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic38.png" alt="pic38" style="zoom:25%;" />
 
 왓슨으로 들어가준다.
 
 
 
-<img src="images/pic39.png" alt="pic39" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic39.png" alt="pic39" style="zoom:33%;" />
 
-<img src="images/pic40.png" alt="pic40" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic40.png" alt="pic40" style="zoom:50%;" />
 
 자연어 이해하기 항목을 찾을 수 있다.
 
 
 
-<img src="images/pic41.png" alt="pic41" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic41.png" alt="pic41" style="zoom:33%;" />
 
 Lite플랜을 고르고 작성한다. 무료이기 때문이다.
 
@@ -42,11 +42,11 @@ Lite플랜을 고르고 작성한다. 무료이기 때문이다.
 
 
 
-![pic34](images/pic34.png)
+![pic34](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic34.png)
 
-![pic35](images/pic35.png)
+![pic35](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic35.png)
 
-![pic36](images/pic36.png)
+![pic36](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic36.png)
 
 
 
@@ -54,11 +54,11 @@ Lite플랜을 고르고 작성한다. 무료이기 때문이다.
 
 
 
-![pic42](images/pic42.png)
+![pic42](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/pic42.png)
 
 감지가능언어에 한국어가 있어서 한국어도 분석해 볼 수 있다.
 
-![image-20200731230429406](images/image-20200731230429406.png)
+![image-20200731230429406](https://raw.githubusercontent.com/ChoiDongKyu96/ChoiDongKyu96.github.io/master/_posts/Cloud/images/image-20200731230429406.png)
 
 자신의 API 키와 URL을 확인하여 클라우드에 요청을 보낸다.
 
