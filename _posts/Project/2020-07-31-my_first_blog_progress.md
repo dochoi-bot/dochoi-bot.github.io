@@ -1,6 +1,7 @@
 ---
+layout: post
 title: "Django로 블로그 만들기 진행 과정"
-date: 2020-06-08
+date: 2020-07-31
 category : Project
 project : true
 excerpt: "Django로 블로그 만들기 진행 과정"

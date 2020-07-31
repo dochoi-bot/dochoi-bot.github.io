@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IBM Cloud로 자연어 분석하기"
-date: 2020-06-08
+date: 2020-07-31
 category : cloud
 excerpt: "IBM Cloud로 자연어 분석하기"
 tags: [Cloud]
