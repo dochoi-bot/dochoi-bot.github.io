@@ -70,6 +70,19 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
 
+gem: [jekyll-admin]
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      category: ""
+      tags: [""]
+      project: false
+      excerpt: ""
+      comments: true 
 jekyll-mentions:
     base_url: https://github.com
 
