@@ -117,7 +117,7 @@ docker image build -t dochoi/debian:buster .
 ## Debianbuster 컨테이너 실행
 
 ```
-docker container run -it -p 9000:8080 dochoi/debian:buster  
+docker container run -it -p 9000:80 dochoi/debian:buster  
 ```
 
 `-it` :  docker 이미지 컨테이너의 bash 쉘을 실행 시킨다
@@ -125,7 +125,7 @@ docker container run -it -p 9000:8080 dochoi/debian:buster
 - `-i` : interactive
 - `-t` : 가상 tty(터미널같은입력창) 할당
 
-`-p`:  로컬호스트 9000 -> 컨테이너호스트 8000 연결
+`-p`:  로컬호스트 9000 -> 컨테이너호스트 80 연결
 
 
 
