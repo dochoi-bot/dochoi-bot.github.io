@@ -12,6 +12,7 @@ locale:             en_US
 url:                https://ChoiDongKyu96.github.io
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
