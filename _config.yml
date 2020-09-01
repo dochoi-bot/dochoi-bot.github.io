@@ -10,7 +10,8 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             en_US
 #url:				http://127.0.0.1:4000
 url:                https://ChoiDongKyu96.github.io
-
+plugins:
+  - jekyll-sitemap
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
