@@ -9,7 +9,7 @@ background:         'assets/img/background_dochoi.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 #url:				http://127.0.0.1:4000
-url:                https://ChoiDongKyu96.github.io
+url:                https://dochoi-bot.github.io
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -43,7 +43,7 @@ google:
 email:				ehdrb345@naver.com
 #twitter:            username
 #facebook:           username
-github-url:         ChoiDongKyu96
+github-url:         dochoi-bot
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username

@@ -68,7 +68,7 @@ day01의 ex08질문들이다.
 
 ## multivariate model
 
-![MLimg0](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg0.png)
+![MLimg0](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg0.png)
 
 지금까지 hypothesis를 정말 간단한걸 사용했다.
 이걸로는 복잡한 세상을 예측할 수 없다.
@@ -80,7 +80,7 @@ day01의 ex08질문들이다.
 
 ## ex02
 
-![MLimg0](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg18.png)
+![MLimg0](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg18.png)
 
 multivariate model을 다루기 위해 벡터가아닌 매트릭스를 이용한다.
 
@@ -154,7 +154,7 @@ y_hat과 y만 필요하기 때문에 day01에서 구현한 cost함수와 동일�
 
 **multivariate model**에서의 Linear Gradient 구하기
 
-![MLimg0](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg19.png)
+![MLimg0](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg19.png)
 
 여기선 또 theta의 수와 x의 원소 수를 같게 주었다...  즉 x_0이 주어지지 않았다..
 
@@ -243,7 +243,7 @@ print(mylr.cost_(X,Y))
 
 이 코드에 대한 결과값이다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg20.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg20.png" alt="MLimg0"  />
 
 이정도로 alpha값 0.0005, n_cycle=322000으로 만족하겠다. (사이클을 늘리면 시간이 너무 많이걸린다.) cost function이 0.1이니 만족한다.
 
@@ -278,7 +278,7 @@ csv파일을 읽어서 그래프를 plot하라
 - Age, Thrust, Terameters를 각각 feature로 선택하여 3가지 그래프를 그려보자
 
 - csv파일 읽어오는건 pandas를 이용하겠다.
-- <img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg21.png" alt="MLimg0"  />
+- <img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg21.png" alt="MLimg0"  />
 
 matplot의 plot에 사용할 수 있는 색이다.
 
@@ -307,7 +307,7 @@ plt.show()
 
 ### Age 그래프 그리기
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg22.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg22.png" alt="MLimg0"  />
 
 alpha=0.0001, n_cycle=1020000로 하니 한번 모델을 적용하는데 1분이 걸린다...
 
@@ -321,7 +321,7 @@ thetas(1,1)로 시작했을때이다.. 앞으로는 점을 찍고 thetas를 추�
 
 ### Thrust power 그래프 그리기
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg23.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg23.png" alt="MLimg0"  />
 
 앞의 age보다 상관관계가 더 뚜렷하다.
 
@@ -331,7 +331,7 @@ thetas(1,1)로 시작했을때이다.. 앞으로는 점을 찍고 thetas를 추�
 
 수렴속도를 빨리 하기 위해 thetas를 추정할 것이다. 그러기 위해 우선 실제 값을 찍어보자
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg24.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg24.png" alt="MLimg0"  />
 
 얼핏 기울기가 음수일 것같다. theta를 추정해보자 theta0은 1000, theta1은 -1로 추정해보겠다.
 
@@ -339,7 +339,7 @@ theata를 추정했으니 n_cycle을 줄였다.
 
 그래프 title을 실수로 수정을 안해서 모두 동일하지만 위에는 age 중간은 thrust,  마지막은 dist이다
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg25.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg25.png" alt="MLimg0"  />
 
 꽤나 유사하다.
 
@@ -380,11 +380,11 @@ plt.show()
 
 수없는 반복끝에 theta값을 구해서 그래프를 그렸다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg26.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg26.png" alt="MLimg0"  />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg27.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg27.png" alt="MLimg0"  />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg28.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg28.png" alt="MLimg0"  />
 
 앞선 Univariate Linear Regression보다 굉장히 정확하다 !!
 
@@ -416,7 +416,7 @@ Question Time !!
 - univariate 에선 cost함수의 최솟값을 찾기위해 cost함수를 미분하여 기울기가 0을 만족하는 thetas를 찾아가는 과정이었다.(포물선에서 극솟값)
   이를  2가지 변수로 확장시키면(3차원 포물선 에서의 극솟값일 것이다.)
 
-  <img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg29.png" alt="MLimg0" style="zoom:50%;" />
+  <img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg29.png" alt="MLimg0" style="zoom:50%;" />
 
 기하학적으로 해석한 예이다
 
@@ -430,7 +430,7 @@ Question Time !!
 
 하지만 아래와 같이 예측변수가 선형관계가 아닐 땐 무슨 방법을 써야할까?
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg30.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg30.png" alt="MLimg0"  />
 
 이는 적절한 직선으로 예측할 수없다. 여기서 다항식(polynomial)을 이용하여 모델을 만들어보자 !!
 
@@ -440,7 +440,7 @@ x뿐아니라 x^2, x^3, x^n 까지 이용해 볼수 있다.
 
 #### **Polynomial Hypothesis**
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg31.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg31.png" alt="MLimg0"  />
 
 다항식으로 Hypothesis를 만들었다.
 
@@ -513,7 +513,7 @@ day01에서 사용했던 are_blue_pills_magic.csv파일을 이용한다.
 
 --------------------------
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg33.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg33.png" alt="MLimg0"  />
 
 처음에 alpha와 cycles를 잘못 조절하여 n==4가 이상적으로 나왔으나 이어지는 문제에서 원하는 결과가 아니기에 다시 n ==9일때를 이상적으로 맞추기 위해 노력했다..**
 
@@ -536,7 +536,7 @@ day01에서 사용했던 are_blue_pills_magic.csv파일을 이용한다.
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg32.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg32.png" alt="MLimg0"  />
 
 **minmax**로 정규화 했을시 그래프이다. 내 생각이 맞다면 n이 커질수록 정확할 것이다.
 
@@ -648,7 +648,7 @@ plt.show()
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg34.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg34.png" alt="MLimg0"  />
 
 곡선그리기를 완료하였다.
 
@@ -668,11 +668,11 @@ plt.show()
 
 **데이터 정규화 후 플랏!**
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg35.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg35.png" alt="MLimg0" style="zoom:50%;" />
 
 n == 4일 때
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg48.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg48.png" alt="MLimg0" style="zoom:50%;" />
 
 (이 그래프는 overfit을 위해 아래에서 엄청난 train 끝에 얻은 그래프이다 ㅠㅠ)
 
@@ -711,35 +711,35 @@ overfitting을 일으키기 위해 시간을 제법 많이썻다..
 
 아래는 학습 과정이다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg39.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg39.png" alt="MLimg0" style="zoom:50%;" />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg40.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg40.png" alt="MLimg0" style="zoom:50%;" />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg41.png" alt="MLimg0" style="zoom:50%;" />
-
-
-
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg42.png" alt="MLimg0" style="zoom:50%;" />
-
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg43.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg41.png" alt="MLimg0" style="zoom:50%;" />
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg44.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg42.png" alt="MLimg0" style="zoom:50%;" />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg45.png" alt="MLimg0" style="zoom:50%;" />
-
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg46.png" alt="MLimg0" style="zoom:50%;" />
-
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg47.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg43.png" alt="MLimg0" style="zoom:50%;" />
 
 
+
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg44.png" alt="MLimg0" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg45.png" alt="MLimg0" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg46.png" alt="MLimg0" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg47.png" alt="MLimg0" style="zoom:50%;" />
 
 
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg48.png" alt="MLimg0" style="zoom:50%;" />
+
+
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg48.png" alt="MLimg0" style="zoom:50%;" />
 
 **overfit을 일으키기 위해선 정말 시간을 많이 써야한다 ㅠㅠ**
 
@@ -761,11 +761,11 @@ The two previous exercises lead you, dear reader, to a very dangerous territory:
 
 맞다 overfitting이란게 일어나서 굉장히 모양이 이상해졌다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg48.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg48.png" alt="MLimg0" style="zoom:50%;" />
 
 학습데이터에서만 오차가 감소하고 실제 데이터에선 오차가 증가하게된다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg37.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg37.png" alt="MLimg0" style="zoom:50%;" />
 
 이러한 모델은 새로운 데이터에 대해선 오차가 큰 예측을 할 수 있다.
 
@@ -1047,7 +1047,7 @@ plt.show()
 
 ```
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg49.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg49.png" alt="MLimg0" style="zoom:50%;" />
 
 
 
@@ -1089,4 +1089,4 @@ degree가 높다고 무조건 좋은 모델은 아닌것이다.
 
 - underfitting이 일어난다면 test set과 training set 모두 오차가 많이 발생할 것 같습니다.
 
-[깃허브 링크](https://github.com/ChoiDongKyu96/Bootcamp_Machine_Learning)
+[깃허브 링크](https://github.com/dochoi-bot/Bootcamp_Machine_Learning)

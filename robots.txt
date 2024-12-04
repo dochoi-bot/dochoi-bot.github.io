@@ -1,4 +1,4 @@
 # Allow crawling of all content
 User-agent: *
 Allow: /
-Sitemap: https://choidongkyu96.github.io/sitemap.xml
+Sitemap: https://dochoi-bot.github.io/sitemap.xml

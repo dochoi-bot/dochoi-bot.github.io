@@ -98,7 +98,7 @@ C = tf.matmul(A, B)
 
 간단한 예측을 만든다
 
-![MLimg0](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg0.png)
+![MLimg0](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg0.png)
 
 
 
@@ -132,11 +132,11 @@ y값을 특정해 둔후 theta에 따른 y_hat과 얼마나 유사한지 판별�
 
 MSE /2인데 2로 나누는 이유가 있다고 한다.
 
-![MLimg0](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg1.png)
+![MLimg0](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg1.png)
 
 ## ex08
 
-![MLimg0](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg2.png)
+![MLimg0](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg2.png)
 
 이 공식을 이용하여 @연산으로 평가 cost를 반환한다.
 
@@ -144,7 +144,7 @@ MSE /2인데 2로 나누는 이유가 있다고 한다.
 
 ## ex09
 
-![MLimg0](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg3.png)
+![MLimg0](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg3.png)
 
 평가점수를 시각화한다.
 
@@ -156,4 +156,4 @@ MSE /2인데 2로 나누는 이유가 있다고 한다.
 
 등의 간단한 질문이 이어진다.
 
-[깃허브 링크](https://github.com/ChoiDongKyu96/Bootcamp_Machine_Learning)
+[깃허브 링크](https://github.com/dochoi-bot/Bootcamp_Machine_Learning)

@@ -45,9 +45,9 @@ comments: true
 
 로컬환경에서 쿠버네티스를 구축하기위해 minikube를 많이 썼지만 쿠버네티스 연동 기능을 이용하면 로컬에서도 쿠버네티스 환경을 구축할 수 있다.
 
-![image-20200816013711431](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200816013711431.png)
+![image-20200816013711431](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200816013711431.png)
 
-![image-20200816014645478](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200816014645478.png)
+![image-20200816014645478](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200816014645478.png)
 
 모두 minikube를 쓰는 이유가 궁금하다...
 
@@ -88,7 +88,7 @@ comments: true
 
 클러스터의 처리 능력은 노드에 의해 결정된다.
 
-![image-20200825182936557](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825182936557.png)
+![image-20200825182936557](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825182936557.png)
 
 
 
@@ -98,7 +98,7 @@ comments: true
 
 이 클러스터 안의 가상 클러스터를 namespace라고 한다. 클러스터를 처음 구축하면 default, docker, kube-public, kube-system의 네임스페이스 4개가 만들어져 있다.
 
-![image-20200825184119412](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825184119412.png)
+![image-20200825184119412](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825184119412.png)
 
 네임스페이스는 개발팀이 일정 규모 이상일때 유용하다.(각자의 권한을 설정하여 개발을 효율적으로 한다.)
 
@@ -153,9 +153,9 @@ kubectl exec -it simple-echo sh -c nginx
 kubectl logs -f simple-echo -c echo
 ```
 
-![image-20200825190214846](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825190214846.png)
+![image-20200825190214846](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825190214846.png)
 
-![image-20200825190221782](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825190221782.png)
+![image-20200825190221782](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825190221782.png)
 
 -c 옵션은 파드안에 컨테이너가 여러개일경우 컨테이너를 지정하는 옵션이다
 
@@ -171,7 +171,7 @@ kubectl delete -f simple-pod.yaml
 
 yaml파일 이름으로도 파드를 삭제할 수 있다. 이 방법을 사용하면 매니페스트에 작성된 리소스 모두가 삭제된다.
 
-![image-20200825192505836](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825192505836.png)
+![image-20200825192505836](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825192505836.png)
 
 파드를 정의한 매니페스트 파일로는 파드를 하나밖에 생성할 수 없다. 그러나 어느정도 규모가 되는 애플리케이션을 구축하려면 같은 파드를 여러 개 실행해 가용성을 확보해야 하는 경우가 생긴다.
 
@@ -209,7 +209,7 @@ spec:
 
 ```
 
-![image-20200825193408080](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825193408080.png)
+![image-20200825193408080](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825193408080.png)
 
 3개가 생긴것을 확인할 수 있다.
 
@@ -252,11 +252,11 @@ spec:
 
 ```
 
-![image-20200825194153395](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825194153395.png)
+![image-20200825194153395](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825194153395.png)
 
 디플로이먼트는 물론이고, 레플리카와 파드까지 생성이 되었다.
 
-![image-20200825194613096](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Kubernetes/images/image-20200825194613096.png)
+![image-20200825194613096](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Kubernetes/images/image-20200825194613096.png)
 
 ## 레플리카세트의 생애주기
 

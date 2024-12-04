@@ -274,7 +274,7 @@ In this bootcamp we will use the following terms interchangeably: class, categor
 
 클래스, 카테고리, 라벨을 같은언어로 사용한다고 한다.
 
-![](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg50.png)
+![](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg50.png)
 
 ## Interlude - Predict I: Introducing the Sigmoid Function
 
@@ -286,7 +286,7 @@ hypothesis, 즉  h(θ)는 feature set으로 이루어진 방정식이다.
 
 prediction을 output할 때 사용한다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg31.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg31.png" alt="MLimg0"  />
 
 **Polynomial Hypothesis**이다.
 
@@ -305,11 +305,11 @@ This function is also known as Standard logistic sigmoid function. This explains
 
 **Sigmoid**를 구현하자
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg51.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg51.png" alt="MLimg0"  />
 
 이함 수는 입력을 확률값, 즉 0과 1 사이의 값으로 변환한다. 이 확률 값은 입력을 분류하는데 사용된다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg56.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg56.png" alt="MLimg0"  />
 
 이 sigmoid 함수는 logistic function의 특수한 경우이다. 
 
@@ -345,7 +345,7 @@ ex04에서 더욱 간단하게 만들어본다
 
 ## Interlude - Predict II : Hypothesis
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg53.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg53.png" alt="MLimg0"  />
 
 
 
@@ -353,7 +353,7 @@ sigmoid함수를 plot한것이다. output values가 0에서 1사이로 나타난
 
 ### Logistic Hypothesis
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg54.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg54.png" alt="MLimg0"  />
 
 **Logistic regression hypothesis**이다.
 
@@ -361,7 +361,7 @@ sigmoid함수를 plot한것이다. output values가 0에서 1사이로 나타난
 
 이걸 vectorize하면
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg55.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg55.png" alt="MLimg0"  />
 
 이렇게 표현할 수 있다.
 
@@ -430,13 +430,13 @@ prediction과 label 사이의 'distance'를 측정하는 것은 classification m
 
 ### **case 1 : the expected output is 1**
 
-- <img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg57.png" alt="MLimg0"  />
+- <img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg57.png" alt="MLimg0"  />
 
   y_hat이 0에 가까워지면 high cost가 나와야 한다.
 
   저 로그함수를 cost함수로 쓰면 어떨까?
 
-  <img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg58.png" alt="MLimg0"  />
+  <img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg58.png" alt="MLimg0"  />
 
   prediction이 0에 가까워지면 cost가 급속도로 커지고 prediction이 1에 가까워지면 cost는 0에 가까워진다. 이를 통해 predction이 0에 가까워졌을때 harshly penalize를 할 수 있다.
 
@@ -450,7 +450,7 @@ prediction과 label 사이의 'distance'를 측정하는 것은 classification m
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg59.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg59.png" alt="MLimg0"  />
 
 y_hat이 0이 되게 하고싶다.  아까 로그함수를 살짝 수정하면 가능하다.
 
@@ -462,7 +462,7 @@ prediction이 1에 가까워지면 cost가 급속도로 커지고 prediction이 
 
 이제 이 두모델을 어떻게 이용할지를 생각하자.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg60.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg60.png" alt="MLimg0"  />
 
 두가지 그래프를 동시에 그렸다.
 
@@ -472,11 +472,11 @@ prediction이 1에 가까워지면 cost가 급속도로 커지고 prediction이 
 
 이를 하나의 방정식으로 통합하기 위해 수학적인 트릭을 이용한다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg61.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg61.png" alt="MLimg0"  />
 
 이를 통합하자.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg62.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg62.png" alt="MLimg0"  />
 
 **얼핏 보면 굉장히 복잡해 보이지만 cost에 수식을 대입한것 뿐이다.**
 
@@ -486,13 +486,13 @@ prediction이 1에 가까워지면 cost가 급속도로 커지고 prediction이 
 
 모든 훈련 examples에 평균을 취하는 **cross-entrop y**라는 최종 cost fuction을 만들어야 한다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg63.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg63.png" alt="MLimg0"  />
 
 바로 이것이다.
 
 아래는 증명이다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg64.png" alt="MLimg0"  />1
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg64.png" alt="MLimg0"  />1
 
 
 
@@ -502,7 +502,7 @@ prediction이 1에 가까워지면 cost가 급속도로 커지고 prediction이 
 
 ##  Logistic Loss Function
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg63.png" alt="MLimg0"  /> 
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg63.png" alt="MLimg0"  /> 
 
 이 함수를 구현하자
 
@@ -538,7 +538,7 @@ ex06에서는 np.log로 더욱 간단하게 구현하겠다.
 
 ## Interlude - Linear Algebra Strikes Again!
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg52.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg52.png" alt="MLimg0"  />
 
 이게 **Logistic Cost Function** 이다.  
 
@@ -580,7 +580,7 @@ Many of the bugs you will encounter while working on Machine Learning problems w
 
 ### Vectorized Logistic Loss Function
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg65.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg65.png" alt="MLimg0"  />
 
 이를 구현하자
 
@@ -611,7 +611,7 @@ def vec_log_loss_(y, y_hat, eps=1e-15):
 
 ### The logistic gradient
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg66.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg66.png" alt="MLimg0"  />
 
 logistic cost함수의 gradient는 linear regression gradient와 공식이 유사하다.
 
@@ -680,7 +680,7 @@ def log_gradient(x, y, theta):
 
 ## ex08
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg67.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg67.png" alt="MLimg0"  />
 
 transpose를 이용하여 더 간단한 식으로 구현이다.
 
@@ -985,7 +985,7 @@ Then the citizen should be classiﬁed as coming from Planet 3.
    
    ```
 
-   <img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg68.png" alt="MLimg0"  />
+   <img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg68.png" alt="MLimg0"  />
 
 class2는 80%, class3은 70%의 Accuarcy를 보여준다. 생각보다 정확도가 엄청 높지 않다...
 
@@ -1057,7 +1057,7 @@ ex) 암을 발견하고자 할때, 건강한 환자에게 암을 진단하는것
 
 목표 : 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg69.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg69.png" alt="MLimg0"  />
 
 위에서 정의한 Accuaracy, precision, recall, f1,을 구현하고 이해하자
 
@@ -1119,7 +1119,7 @@ numpy의 비교연산, count_nonzero를 이용하여 구현하였다.
 
 sklearn에 있는 confusion_matrix를 구현해보고 이해하자
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg70.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg70.png" alt="MLimg0"  />
 
 **The confusion matrix shows the ways in which your classification model
 is confused when it makes predictions.**
@@ -1214,7 +1214,7 @@ print(confusion_matrix_(y, y_hat, labels=['dog', 'norminet'], df_option=1))
 
 구현을 완료하였다 pandas를 이용하는게 numpy보다 훨씬 간단했다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg71.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg71.png" alt="MLimg0"  />
 
 이로써 day03이 완료되었다.
 
@@ -1230,4 +1230,4 @@ print(confusion_matrix_(y, y_hat, labels=['dog', 'norminet'], df_option=1))
 
 **F1-score** : 재현율과 정밀도의 조화 평균은 얼마인가?
 
-[깃허브 링크](https://github.com/ChoiDongKyu96/Bootcamp_Machine_Learning)
+[깃허브 링크](https://github.com/dochoi-bot/Bootcamp_Machine_Learning)

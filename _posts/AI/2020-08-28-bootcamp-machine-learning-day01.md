@@ -42,7 +42,7 @@ comments: true
 
 day00의
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg4.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg4.png)
 
 를 그대로 구현하는것이다.
 
@@ -50,7 +50,7 @@ day00의
 
 day00의 cost함수를 그대로 구현하는것이다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg2.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg2.png)
 
 ## ex02
 
@@ -64,9 +64,9 @@ day00의 마지막 문제이다
 
 문제에 앞서 간단한 이론이 나온다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg6.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg6.png)
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg5.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg5.png)
 
 왼쪽 그래프는 오른쪽에서 theta_1의 값이 노란색 점일때 예측과 실제값이 얼마나 유사한지 보여준다.
 cost값이 0일때가 이상적인 모델이므로 오른쪽 그래프에서 기울기가 0일때,  내가 원하는 theta값이다.이를 찾아가는 간단한 알고리즘이다. 기울기가 양수이면 theta_1의 값을 줄이고 기울기가 음수이면 theta_1의 값을 늘려서 이상적인 값을 찾는다.
@@ -77,15 +77,15 @@ cost값이 0일때가 이상적인 모델이므로 오른쪽 그래프에서 기
 
 ## Linear Gradient Iterative Version
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg7.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg7.png)
 
 cost 함수의 기울기를 구하는 문제이다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg8.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg8.png)
 
 여기서 y_hat(i)에 아래식을 넣고 theta_0과 theta_1에대해 미분하면 위에 두가지 식이 유도된다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg9.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg9.png)
 
 예제에 오류가 있다.
 
@@ -127,13 +127,13 @@ https://github.com/42-AI/bootcamp_machine-learning/issues/64
 
 ## **Linear Gradient Vectorized Version**
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg10.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg10.png)
 
 목표는 ex03과 동일하지만 벡터곱을 통해서 결과를 도출해보자
 
 저 식의 유도 과정에 대해 알아보자
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg11.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg11.png)
 
 여기서 x_0는 1이다.
 
@@ -141,18 +141,18 @@ https://github.com/42-AI/bootcamp_machine-learning/issues/64
 
 기울기를 구하는 식이 하나의 식으로 통합된다. 이로써 데이터셋(x의 행의 수)이 많더라도 코드는 한줄로 작성이 가능하다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg14.jpg" alt="MLimg4" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg14.jpg" alt="MLimg4" style="zoom: 50%;" />
 여기서 모든 데이터셋에대한 결과를 출력하려면 식을 변형한다.
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg13.jpg" alt="MLimg4" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg13.jpg" alt="MLimg4" style="zoom: 50%;" />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg12.jpg" alt="MLimg4" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg12.jpg" alt="MLimg4" style="zoom: 33%;" />
 
 y배열은 y_hat과 비교할 실제 결과값이다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg10.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg10.png)
 
 따라서 이 식이 유도된다.
 
@@ -176,7 +176,7 @@ a가 numpy 배열이라고 했을때 ,
 
 경사하강법이다. 머신러닝 공부하기 전에도 어디선가 많이 들어봤다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg12.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg12.png)
 
 간단하다 이전에 말했듯이 cost를 0으로 만들기위한 세타값을 찾아가는 과정이다.
 
@@ -276,7 +276,7 @@ resources 폴더에 있는 are_blue_pills_magics.csv를 분석해야하기 때�
 
 가설공식
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg13.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg13.png)
 
 이전과 같다.
 
@@ -319,9 +319,9 @@ x = model1.thetas를 하면 주솟값이 복사되어
 
 x의 값이 바뀌면 mode1.thetas의 값이 바뀐다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg15.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg15.png)
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg14.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg14.png)
 
 
 
@@ -407,7 +407,7 @@ plt.show()
 
 - 오차의 제곱에 평균을 취한것이다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg3.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg3.png)
 
 여기서 보이는 빨간 점선들의 거리의 평균을 취한것이다.
 
@@ -429,7 +429,7 @@ x vector의 크기는 다양하다. 어쩔때는 굉장히 클 수도 있고, �
 
 ### 목표
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg16.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg16.png)
 
 즉 x의 원소에 평균을 빼고 표준편차로 나눠준다.
 
@@ -483,7 +483,7 @@ Min-max Standardization
 
 이는 ex09보다 훨씬 직관적이다.
 
-![MLimg4](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg17.png)
+![MLimg4](https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg17.png)
 
 이는 0부터 1까지의 값으로 매핑된다.
 
@@ -500,4 +500,4 @@ def minmax(x):
 
 이로써 마지막 문제가 끝났다.
 
-[깃허브 링크](https://github.com/ChoiDongKyu96/Bootcamp_Machine_Learning)
+[깃허브 링크](https://github.com/dochoi-bot/Bootcamp_Machine_Learning)

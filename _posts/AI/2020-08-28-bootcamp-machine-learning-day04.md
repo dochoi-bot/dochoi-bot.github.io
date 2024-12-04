@@ -153,7 +153,7 @@ day02에서 물어봤던 질문들이다.
 
 ### Polynomial models 2
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg72.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg72.png" alt="MLimg0"  />
 
 내가 구현한 Polynomial models는 이미 이 조건을 만족했다 ..
 따라서 그대로 쓰겠다.
@@ -186,13 +186,13 @@ Evaluate 단계 ..
 day02에서 데이터를 train과 test로 나누는 이유와 overfitting에 대해 공부하였다.
 하지만 overfitting을 detect할 수 있다고 overfitting을 피할 순 없다. 이 문제를 해결하기 위해, 우리는 **Regularization**을 사용한다. overfitting은 model이 training data와 관련 없는 신호를 활용하기 때문에 발생한다.  기본적인 아이디어는 모델에게 특정(보통 무거운 다항식) features에 너무 많은 비중을 두는것에 대해 불이익을 주는것이다. cost함수에 extra term을 추가하자
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg73.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg73.png" alt="MLimg0"  />
 
 이렇게 함으로써 θ 값을 가능한 작게 유지하게 할 수 있다.
 
 λ(람다)는 reglarization 이 모델에 영향을 미치는것을 수정할 수 있는 매개변수이다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg74.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg74.png" alt="MLimg0"  />
 
 **Notice**
 
@@ -204,7 +204,7 @@ in the regularization term, the sum starts at j =1 because we do NOT want to pen
 
 Machine Learning was essentially developed by computer scientists (not mathematicians). This can cause problems when we try to represent things mathematically. For example: using the θ0 notation to represent the y-intercept makes things easy when we apply the linear algebra trick, but it completly messes up the overall matrix notation!
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg75.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg75.png" alt="MLimg0"  />
 
 지금까지 해왔던 이야기를 한다. theta0을 적용하기 때문에 X`의 차원이 m *(n + 1)이며
 
@@ -212,7 +212,7 @@ Machine Learning was essentially developed by computer scientists (not mathemati
 
 ### Terminology
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg76.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg76.png" alt="MLimg0"  />
 
 여기서 norm에 대한 이야기가 나온다. 선형대수학때 배운 norm이다 단순히 크기라고 정의하기엔 꽤나 복잡한 친구다.. euclidean norm 은 거리, 크기 개념으로 절댓값 제곱의 합의 제곱근으로 구해진다.
 
@@ -232,7 +232,7 @@ vectorization을 이용해서 위 계산을 효율적으로 할 수 있다.
 
 ## Interlude - Answers to the Vectorization Problem
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg77.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg77.png" alt="MLimg0"  />
 
 theta0은 간섭하지 않을것이기 때문에 0으로 두고 dot product를 하면 위 식을 얻을 수 있다.
 
@@ -297,7 +297,7 @@ def l2(theta):
 
 ###  Regularized Linear Cost Function
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg78.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg78.png" alt="MLimg0"  />
 
 저 cost함수를 구현하자 이미 전에 linear cost function은구현했기 때문에 뒤에 Regularization term만 붙여주면 될거 같다. 
 
@@ -358,7 +358,7 @@ def reg_cost_(y, y_hat, theta, lambda_):
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg79.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg79.png" alt="MLimg0"  />
 
 마찬가지이다. 이전에 Logistic Cost Function도 구현했기 때문에 뒤에 regulariztion term만 붙여준다.
 
@@ -417,7 +417,7 @@ def reg_log_cost_(y, y_hat, theta, lambda_):
 
 ### Imporve
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg80.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg80.png" alt="MLimg0"  />
 
 cost함수에 Regulariztion term을 추가 했기 때문에 이를 미분한 Gradient에도 이 텀을 미분한 식이 추가된다.
 
@@ -425,17 +425,17 @@ cost함수에 Regulariztion term을 추가 했기 때문에 이를 미분한 Gra
 
 이 둘은 hypothesis function이 유일하게 다르다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg81.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg81.png" alt="MLimg0"  />
 
 ## ex07
 
 ### Regularized Linear Gradient
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg82.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg82.png" alt="MLimg0"  />
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg83.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg83.png" alt="MLimg0"  />
 
  formulas as a functions for the linear regression hypothesis을
 
@@ -532,7 +532,7 @@ vectorize 버전에선 theta0의 간섭을 피하기 위해 마지막에 다시 
 
 ### Regularized Logistic Gradient
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg84.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg84.png" alt="MLimg0"  />
 
 ex07과 동일한식에서 hypothesis만 수정하면 된다.
 
@@ -864,19 +864,19 @@ plt.show()
 
 
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg88.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg88.png" alt="MLimg0" style="zoom:50%;" />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg89.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg90.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg91.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg92.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg93.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg94.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg95.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg96.png" alt="MLimg0" style="zoom:50%;" />
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg97.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg89.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg90.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg91.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg92.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg93.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg94.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg95.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg96.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg97.png" alt="MLimg0" style="zoom:50%;" />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg86.png" alt="MLimg0" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg86.png" alt="MLimg0" style="zoom:50%;" />
 
 
 
@@ -890,7 +890,7 @@ plt.show()
 
 ## Interlude - Regularized Logistic Regression is still Logistic Regression
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg85.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg85.png" alt="MLimg0"  />
 
 **logistic** **regression에** **regularization을** 한 것은 여전히 **logistic** **regression이라** 불린다.
 
@@ -1268,11 +1268,11 @@ plt.show()
 7. lamda를 바꿔가며 fit을 진행한다.
 8. 결과를 시각화한다.
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg98.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg98.png" alt="MLimg0"  />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg99.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg99.png" alt="MLimg0"  />
 
-<img src="https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/Machine%20Learning/image/MLimg100.png" alt="MLimg0"  />
+<img src="https://raw.githubusercontent.com/dochoi-bot/TIL/master/Machine%20Learning/image/MLimg100.png" alt="MLimg0"  />
 
 흠 뭔가 이상하다.. lambda가 바뀌어도 theta값은 바뀌는데 accuaracy와  f_score 값이 동일하다.
 
@@ -1288,4 +1288,4 @@ plt.show()
 
 이제 나도 나만의 모델을 만들 수 있는 것이다!!
 
-[깃허브 링크](https://github.com/ChoiDongKyu96/Bootcamp_Machine_Learning)
+[깃허브 링크](https://github.com/dochoi-bot/Bootcamp_Machine_Learning)

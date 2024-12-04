@@ -29,29 +29,29 @@ comments: true
 - fill
 
   - 공간이 유효하면 이미지를 view's axis를 따라서 배치합니다. 정렬된 뷰가 Stackview에 맞지 않을경우 우선순위에 따라 이미지를 줄이거나 늘립니다.
-  - ![image-20200903155122022](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/iOS/images/image-20200903155122022.png)
+  - ![image-20200903155122022](https://raw.githubusercontent.com/dochoi-bot/TIL/master/iOS/images/image-20200903155122022.png)
 
 - fillEqually
 
   - fill과 같지만 이미지를 건드리지 않습니다.
-  - ![img](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/iOS/images/img.png)
+  - ![img](https://raw.githubusercontent.com/dochoi-bot/TIL/master/iOS/images/img.png)
 
 - fillProportionally
 
   - fill과 같지만 이미지가 intrinsic content size에 따라 비례적으로 적용됩니다.
   - intrinsic ContentSize =  컨텐츠 고유 크기
 
-  ![image-20200903155122022](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/iOS/images/image-20200903155122022.png)
+  ![image-20200903155122022](https://raw.githubusercontent.com/dochoi-bot/TIL/master/iOS/images/image-20200903155122022.png)
 
 - equalSpacing
 
   - 뷰간 간격을 둡니다.
-  - ![image-20200903155154870](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/iOS/images/image-20200903155154870.png)
+  - ![image-20200903155154870](https://raw.githubusercontent.com/dochoi-bot/TIL/master/iOS/images/image-20200903155154870.png)
 
 - equalCentering
 
   - 뷰의 중심간 간격을 둔다.
-  - ![image-20200903155213553](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/iOS/images/image-20200903155213553.png)
+  - ![image-20200903155213553](https://raw.githubusercontent.com/dochoi-bot/TIL/master/iOS/images/image-20200903155213553.png)
 
 
 **오토레이아웃에서 자주쓰는 Anchor** : component를 다른 componet에 고정하기위한 객체 
@@ -63,7 +63,7 @@ comments: true
 - distribution은 StackView안의 view들이 X축 정렬을 설정합니다.
 - spacing은 view들간의 간격을 설정합니다.
 
-![img](https://raw.githubusercontent.com/ChoiDongKyu96/TIL/master/iOS/images/stackViewComponents2.png)
+![img](https://raw.githubusercontent.com/dochoi-bot/TIL/master/iOS/images/stackViewComponents2.png)
 
 #### **프로그래밍 방식으로 오토 레이아웃을 할때 유의사항**
 
